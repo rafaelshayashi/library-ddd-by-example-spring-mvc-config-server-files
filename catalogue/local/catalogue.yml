@@ -1,4 +1,6 @@
 spring:
+  main:
+    lazy-initialization: true
   datasource:
     url: jdbc:postgresql://database.service.local.lan:5432/catalogue
     username: api_catalogue
