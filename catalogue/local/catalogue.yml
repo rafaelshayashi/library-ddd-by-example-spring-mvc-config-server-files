@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/catalogue
+    url: jdbc:postgresql://database.service.local.lan:5432/catalogue
     username: api_catalogue
     password: '{cipher}4bbe4c6aee9f8f3422352c68688732e6d064f1fd06ea7fac35acc13b05040246b622b045ddd03ff2e6765a0403302ceb'
   jpa:
@@ -11,4 +11,4 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:9000/auth/realms/library-by-example
+          issuer-uri: http://auth.service.local.lan:7000/auth/realms/library-by-example
