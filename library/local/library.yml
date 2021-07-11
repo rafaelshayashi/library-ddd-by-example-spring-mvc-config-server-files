@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://database.service.local.lan:5432/library
     username: api_library
-    password: '{cipher}4bbe4c6aee9f8f3422352c68688732e6d064f1fd06ea7fac35acc13b05040246b622b045ddd03ff2e6765a0403302ceb'
+    password: '{cipher}56a51dd3f995c63d342a5e94a9826d4447b56f66eedf5fdd874dfa7b9101be01c2f45d884d87a70087f96dd1de15eb22'
   jpa:
     database-plataform: org.hibernate.dialect.PosgresSQL94Dialect
     hibernate:
